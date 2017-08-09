@@ -1,0 +1,46 @@
+
+HTML
+JavaScript
+CSS
+html, body, #sudoku {
+  margin: 0;
+  height: 100%;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+code {
+  color: #f66;
+}
+tr{
+  border-color: black;
+}
+
+table input{
+  width: 30px;
+  height: 30px;
+  align:middle;
+  padding:5px;
+  font-size: 20px;
+
+}
+
+.container{
+
+  width:400px;
+	margin: auto;
+	border-radius: 5px;
+
+}
+
+.error {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.disabled input{
+  disabled:true;
+  background-color: yellow;
+
+
+}

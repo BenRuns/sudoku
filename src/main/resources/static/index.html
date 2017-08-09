@@ -1,0 +1,32 @@
+<html>
+
+  <head>
+      <link href="/css/style.css" rel="stylesheet" type="text/css">
+  </head
+  <body>
+    <div class="container">
+      <h1> SUDOKU </h1>
+      <ul>
+        <li>Checkout the <a href="http://www.sudoku.name/rules/en">rules</a></li>
+        <li><a href="https://github.com/BenRuns/sudoku">Code by Ben Patterson</a></li>
+      </ul>
+
+        <div id="sudoku">
+          <table class="sudoku-table" >
+            <tbody>
+              <tr v-for="row in processedGrid">
+                <td v-for="input in row" :class="{ error: input.hasError, disabled:input.disabled }">
+                  <input v-model="input.val" :disabled="input.disabled !== 0"></input>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <button v-on:click="updateErrors">Check For Errors</button>
+        </div>
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://unpkg.com/vue"></script>
+     <script src="/scripts/bundle.js"></script>
+
+  </body>
+</html>
