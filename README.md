@@ -3,7 +3,7 @@
 Live version running at https://ben-sudoku.appspot.com  
 
 ### Quick start
-Note: this instructions were written for developing on Ubuntu
+Note: these instructions were written for developing on Ubuntu
 
 - make sure you have java 8 on your machine `java -version` you shoul see Build '1.8.XXX'
 - install maven if needed  `sudo apt-get install mvn`
