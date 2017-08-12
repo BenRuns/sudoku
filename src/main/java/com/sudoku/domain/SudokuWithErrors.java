@@ -1,18 +1,7 @@
 package com.sudoku.domain;
 import java.util.ArrayList;
 
-/**
- * @author ben
- *
- */
-/**
- * @author ben
- *
- */
-/**
- * @author ben
- *
- */
+/
 /**
  * @author ben
  *
@@ -55,7 +44,7 @@ public class SudokuWithErrors extends Sudoku{
   }
 
 
- 
+
 
   /**
    * @param row
@@ -89,7 +78,7 @@ public class SudokuWithErrors extends Sudoku{
 
   }
 
-  
+
   /**
    * @param row
    * @param col
