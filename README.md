@@ -22,7 +22,7 @@ Note: these instructions were written for developing on Ubuntu
 - hosted on google app engine
 
 ### Client
-- written using [vuejs.org](vuejs.org)
+- written using [vuejs.org](http://vuejs.org)
 
 ### Testing
 - `mvn test`
