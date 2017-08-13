@@ -5,7 +5,7 @@ Live version running at https://ben-sudoku.appspot.com
 ### Quick start
 Note: these instructions were written for developing on Ubuntu
 
-- make sure you have java 8 on your machine `java -version` you shoul see Build '1.8.XXX'
+- make sure you have java 8 on your machine `java -version` you should see Build '1.8.XXX'
 - install maven if needed  `sudo apt-get install mvn`
 - clone the repo `git clone git@github.com:BenRuns/sudoku.git`
 - go into the directory `cd sudoku`
