@@ -1,7 +1,5 @@
 # Sudoku
 
-Live version running at https://ben-sudoku.appspot.com  
-
 ### Quick start
 Note: these instructions were written for developing on Ubuntu
 
